@@ -28,3 +28,18 @@ ohShit.addEventListener('click', function() {
 	var audio6 = new Audio('./Oh_shit.mp3');
 	audio6.play();
 });
+var yeahBaby = document.getElementById('button7');
+yeahBaby.addEventListener('click', function() {
+	var audio7 = new Audio('./Ooo_baby_yeah.mp3');
+	audio7.play();
+});
+var hellYeah = document.getElementById('button8');
+hellYeah.addEventListener('click', function() {
+	var audio8 = new Audio('./Can_I_get_a_hell_yeah.mp3');
+	audio8.play();
+});
+var betterBelieve = document.getElementById('button9');
+betterBelieve.addEventListener('click', function() {
+	var audio9 = new Audio('./Ooo_you_better_believe.mp3');
+	audio9.play();
+});
